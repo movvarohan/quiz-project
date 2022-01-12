@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"/>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<link rel="icon" href="../static/images/logo.jpeg">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>Rohan QuizApp</title>
+  <script src="https://kit.fontawesome.com/e2bb29b86e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  {% for message in get_flashed_messages() %}
+  <div class="alert alert-warning">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      {{ message }}
+  </div>
+  {% endfor %}
+
+  {% block body %}
+  {% endblock %}
+
+  {% block script %}
+  {% endblock %}
+<script>
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+ document.addEventListener('touchmove', function(event) {
+    event = event.originalEvent || event;
+    if(event.scale > 1) {
+      event.preventDefault();
+    }
+  }, false);
+
+document.addEventListener( 'dblclick', function(event) {  
+    event.preventDefault();  
+    event.stopPropagation(); 
+  },  true);
+
+document.addEventListener( 'dblclick', function(event) {  
+    event.preventDefault();  
+    event.stopPropagation(); 
+  },  true);
+</script>
+
+</body>
+</html>

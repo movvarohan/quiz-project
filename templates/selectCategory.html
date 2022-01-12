@@ -1,0 +1,262 @@
+<head>
+  <title>Rohan Quiz App</title>
+  <!-- These are the open source css styles that I used -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/css/bootstrap.min.css"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+
+<div class="container">
+  <div>
+    <H2 style="text-align: center;">Rohan Quiz App</H2>
+  </div>
+  <div>
+    <!-- Check if the user is authenticated. If the user is logged in, show the logout, scores buttons. -->
+    {% if current_user.is_authenticated %}
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+      <a href="{{url_for('logout')}}" class="text-white" style="text-decoration: none;">Logout</a>
+    </button>
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+      <a href="{{url_for('dashboard')}}" class="text-white" style="text-decoration: none;">My Scores</a>
+    </button>
+    {% else %}
+    <!-- If the user is not logged in, display the login, signup buttons-->
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+      <a href="{{url_for('login')}}" class="text-white" style="text-decoration: none;">Login</a>
+    </button>
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+      <a href="{{url_for('signup')}}" class="text-white" style="text-decoration: none;">SignUp</a>
+    </button>
+    {% endif %}
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+      <a href="{{url_for('home')}}" class="text-white" style="text-decoration: none;">Home</a>
+    </button>
+
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm" data-toggle="modal"
+            data-target="#myModal">Instructions</button>
+
+    <button type="button" style="float: right; background-color:red;" class="btn btn-info btn-sm" data-toggle="modal"
+            data-target="#mykb">Knowledge Base</a>
+    </button>
+  </div>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" style="width: auto;" class="close" data-dismiss="modal">&times;</button>
+        </div>
+<!-- DIsplay the instructions when the user clicks the Instructions button.-->
+        <H2 style="text-align: center;">Instructions</H2>
+        <div class="modal-body">
+
+Hope you are excited to play this fun quiz application!! Get ready to learn and test your knowledge!
+<p>
+To begin with you will have 15+ categories to choose from in which you will receive a 5 question quick quiz and will be able to either choose the category of easy or hard, which will indicate the strength of the questions in the selected category.
+<p>
+You will have 15 seconds for each question and if you answer within the 15 seconds and get it correct then you receive 2 points, if you answer after 15 seconds and get it correct then you receive 1 point. If you answer incorrectly there is no penalty and you just receive 0 points and will be given the correct answer.
+<p>
+If you want to come back to this page feel free to press the home button on the top right. Right next to the home button you should see MyScores and login buttons where if you create an account and login then you will be able to record your score and see improvement compared to past progress and can be a fun way to compete against friends, if you would like to play and compete for higher scores you will have a record of them.
+<p>
+Thanks for playing the Rohan Quiz App!
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" style="width: auto;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="modal fade" id="mykb" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" style="width: auto;" class="close" data-dismiss="modal">&times;</button>
+        </div>
+<!-- DIsplay the instructions when the user clicks the Instructions button.-->
+        <H2 style="text-align: center;">Knowledge Base</H2>
+        <br></br>
+        <H4 style="text-align: center;">You can learn anything!!</H4>
+        <div class="modal-body">
+</p>
+<b>Taxes</b>
+</p>
+          Income taxes in the United States are imposed by the federal government, and most states. The income taxes are determined by applying a tax rate, which may increase as income increases, to taxable income, which is the total income less allowable deductions.
+
+Everything you need to know about taxes can be found
+        <a href="http://usa.gov/taxes"> here </a>
+
+</p>
+<b>Government</b>
+</p>
+The Constitution is the framework for the federal government of the United States of America. Written in 1787 and adopted in 1788, it carves the federal government into three branches. Generally, the legislative branch makes America's laws, the executive branch enforces the laws, and the judicial branch decides cases under the laws. The Constitution also gives the three branches duties outside the realm of the nation's laws.
+Easily learn with a simple to read constitution
+          <a href="https://votesmart.org/education/government"> here </a>
+</p>
+<b>History</b>
+</p>
+Quick US History timeline overview
+                <a href="https://www.ducksters.com/geography/country/united_states_history_timeline.php"> here </a>
+</p>
+<b>Presidents</b>
+</p>
+Find an overview of each US President
+      <a href="https://millercenter.org/president"> here </a>
+</p>
+<b>Politics</b>
+</p>
+          The United States is a constitutional federal republic, in which the president, Congress, and judiciary share powers reserved to the national government, and the federal government shares sovereignty with the state governments.
+          Read this for a nice summary of the US Political system
+          <a href="https://www.bbc.co.uk/bitesize/articles/zjpxjsg"> here </a>
+</p>
+<b>Fun History</b>
+</p>
+          Each year is unique in its own way with its own fads and events,
+          <a href="https://www.infoplease.com/yearbyyear"> here </a>
+are some interesting facts about each year.
+</p>
+<b>Math</b>
+</p>
+The basic math skills are necessary for everybody. Learn more on basic math skills
+          <a href="https://www.ipracticemath.com/learn/basicmath"> here </a>
+</p>
+<b>Computer</b>
+</p>
+Computers are now an integral part of our daily life. Learn more on computer basics
+          <a href="https://www.uopeople.edu/blog/the-basics-of-computer-science-how-to-get-started/#:~:text=A%20computer%20consists%20of%20four,%2C%20speakers%2C%20etc"> here </a>
+</p>
+<b>Geography</b>
+</p>
+Geography is so fascinating! Learn more about the world we live in
+          <a href="https://www.nationalgeographic.org/education/what-is-geography/#:~:text=Geography%20is%20the%20study%20of,human%20societies%20spread%20across%20it.&text=Geography%20seeks%20to%20understand%20where,develop%20and%20change%20over%20time"> here </a>
+</p>
+<b>Nature and Animals</b>
+</p>
+Nature is everything around us including animals, learn that in a fun way
+          <a href="https://www.learnaboutnature.com/"> here </a>
+</p>
+<b>Film and Television</b>
+</p>
+Most people are connected through one another through common fun events that occur in popular films and shows, learn more about the process in creating them
+          <a href="https://storyenvelope.com/filmmaking-basics/"> here </a>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" style="width: auto;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-content-select-category1">
+    <div style="margin-top: 3em;">
+      <!-- Display all the categories. -->
+      <div class="funkyradio" style="background-color: white;">
+        <form action="/nextQn" method="POST">
+          <br>
+          <h3><b> Select Category </b></h3>
+          <!-- Drop down to select the category. The values are mapped to the ids required by the API -->
+          <!-- <select id="category" name="category"> -->
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio1" value="21" checked="checked" />
+            <label for="radio1">Sports</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio2" value="math" />
+            <label for="radio2">Math</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio3" value="9" />
+            <label for="radio3">General Knowledge</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio5" value="23" checked="checked" />
+            <label for="radio5">History</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio6" value="24" />
+            <label for="radio6">Politics</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio7" value="presidents" />
+            <label for="radio7">Presidents</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio8" value="tax" />
+            <label for="radio8">Tax</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio9" value="govt" />
+            <label for="radio9">Government</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio10" value="18"/>
+            <label for="radio10">Computers</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio11" value="22"  />
+            <label for="radio11">Geography</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio12" value="29"  />
+            <label for="radio12">Comics</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio13" value="12"  />
+            <label for="radio13">Music</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio14" value="27"  />
+            <label for="radio14">Animals</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio15" value="11"  />
+            <label for="radio15">Film</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio16" value="14"  />
+            <label for="radio16">Television</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio17" value="17"  />
+            <label for="radio17">Nature</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="category" id="radio18" value="26"  />
+            <label for="radio18">Celebrities</label>
+          </div>
+
+          <br><br>
+          <!-- Display the levels. -->
+          <h3><b> Select Level </b></h3>
+          <div class="funkyradio-success">
+            <input type="radio" name="level" id="radio71" value="easy" checked="checked" />
+            <label for="radio71">Easy</label>
+          </div>
+          <div class="funkyradio-success">
+            <input type="radio" name="level" id="radio81" value="hard" />
+            <label for="radio81">Hard</label>
+          </div>
+          <br><br>
+          <!-- Button that submits the form -->
+          <button id="btnSelect" class="btn btn-lg btn-primary" type="submit">Start Quiz</button>
+          <br><br>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container">
+
+    <div>
+        <H2 style="text-align: center;">Rohan Quiz App</H2>
+    </div>
+
+      <div>
+        {% if current_user.is_authenticated %}
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('logout')}}" class="text-white" style="text-decoration: none;">Logout</a>
+        </button>
+        {% else %}
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('login')}}" class="text-white" style="text-decoration: none;">Login</a>
+        </button>
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('signup')}}" class="text-white" style="text-decoration: none;">SignUp</a>
+        </button>
+        {% endif %}
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('home')}}" class="text-white" style="text-decoration: none;">Home</a>
+        </button>
+    <!--    <button type="button" style="float: right;" class="btn btn-info btn-sm" data-toggle="modal"
+                data-target="#myModal">Instructions</button>-->
+      </div>
+
+
+    <br class="container">
+    <h2 class="custom_heading" style="color:black;margin: 20px 0px 0px 0px;">Scores</h2>
+        </br>
+        <div style="overflow-x:auto;">
+            <table class="table">
+                <thead class="thead-light">
+              <tr>
+                <th>Category</th>
+                <th>Level</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            {% for student in result %}
+              <tr>
+                <td>{{student['cat']}}</td>
+                <td>{{student['level']}}</td>
+                <td>{{student['score']}}</td>
+              </tr>
+            {% endfor %}
+            </table>
+          </div>
+    </div>
+
+</div>
+
+
+
+{% endblock %}

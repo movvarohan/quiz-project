@@ -1,0 +1,61 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container">
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+        <a href="{{url_for('login')}}" class="text-white" style="text-decoration: none;">Login</a>
+      </button>
+    <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+        <a href="{{url_for('home')}}" class="text-white" style="text-decoration: none;">Home</a>
+      </button>
+    <form action="" method="POST" class="form-group text-white">
+        <h1 class="custom_heading" style="color:white;margin: 20px 0px 0px 0px;">User SignUp</h1>
+        {{ forms.hidden_tag() }}
+        <div class="form-group">
+            {{forms.name.label(class="form-control-label")}}
+            {% if forms.name.errors %}
+                {{forms.name(class="form-control form-control-lg is-invalid")}}
+                <div class="invalid-feedback">
+                    {% for error in forms.name.errors %}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                </div>
+            {% else %}
+                {{forms.name(class="form-control form-control-lg")}}
+            {% endif %}
+        </div>
+        <div class="form-group">
+            {{forms.email.label(class="form-control-label")}}
+            {% if forms.email.errors %}
+                {{forms.email(class="form-control form-control-lg is-invalid")}}
+                <div class="invalid-feedback">
+                    {% for error in forms.email.errors %}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                </div>
+            {% else %}
+                {{forms.email(class="form-control form-control-lg")}}
+            {% endif %}
+        </div>
+        <div class="form-group">
+            {{forms.password.label(class="form-control-label")}}
+            {% if forms.password.errors %}
+                {{forms.password(class="form-control form-control-lg is-invalid")}}
+                <div class="invalid-feedback">
+                    {% for error in forms.password.errors %}
+                    <span>{{error}}</span>
+                    {% endfor %}
+                </div>
+            {% else %}
+                {{forms.password(class="form-control form-control-lg")}}
+            {% endif %}
+        </div>
+        <div class="form-group btn">
+           {{forms.submit(class="btn btn-info")}}
+        </div>
+
+    </form>
+
+</div>
+{% endblock %}

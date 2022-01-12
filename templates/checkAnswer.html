@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Rohan Quiz App</title>
+    <!-- These are the open source css styles that I used -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+
+    <div>
+        <H2 style="text-align: center;">Rohan Quiz App</H2>
+    </div>
+
+    <div>
+        {% if current_user.is_authenticated %}
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('logout')}}" class="text-white" style="text-decoration: none;">Logout</a>
+        </button>
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('dashboard')}}" class="text-white" style="text-decoration: none;">My Scores</a>
+        </button>
+        {% else %}
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('login')}}" class="text-white" style="text-decoration: none;">Login</a>
+        </button>
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('signup')}}" class="text-white" style="text-decoration: none;">SignUp</a>
+        </button>
+        {% endif %}
+        <button type="button" style="float: right; margin-left: 2px;" class="btn btn-info btn-sm">
+          <a href="{{url_for('home')}}" class="text-white" style="text-decoration: none;">Home</a>
+        </button>
+    <!--    <button type="button" style="float: right;" class="btn btn-info btn-sm" data-toggle="modal"
+                data-target="#myModal">Instructions</button>-->
+    </div>
+
+        <div class="">
+
+            <body>
+                <div class="modal-content" style="margin: 100px 0">
+                    <form method="POST">
+                        <!-- Pass the variables as hidden values to other actions -->
+                        <input type="hidden" id="category" name="category" value={{category}}>
+                        <input type="hidden" id="level" name="level" value={{level}}>
+                        <!-- Display the message and score. -->
+                        <h3>{{displayMessage}}</h3>
+                        <br>
+
+                        <h3>{{scoreMessage}}</h3>
+                        <!-- Display the next button. The form action is mapped to /nextQn
+        The hideNextButton can have 2 values. Block or None.
+        Block will display the button. None will hide the button. -->
+                        <button id="btnNext" style="display:{{hideNextButton}}" ; class="btn btn-lg btn-primary "
+                            type="submit" formaction="/nextQn">Next Question</button>
+                        <br> <br>
+                        <!-- Restart button that's mapped to /start form action. -->
+                        <button id="btnRestart" class="btn btn-lg btn-primary " type="submit"
+                            formaction="/start">Restart</button>
+                        <br> <br>
+                    </form>
+                </div>
+            </body>
+        </div>
+    </div>
+</body>
+
+</html>

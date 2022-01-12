@@ -1,0 +1,108 @@
+[questions]
+question_1 = When are taxes due?
+question_1_a = May 17
+question_1_b = June 15
+question_1_c = April 15
+question_1_d = March 5
+question_1_answer = c 
+
+question_2 = What happens if you don't file taxes?
+question_2_a = IRS may take you to jail
+question_2_b = IRS may file a substitute tax return on your behalf
+question_2_c = IRS seizes all your assets
+question_2_d = Nothing
+question_2_answer = b
+
+
+question_3 = How much do you have to make to file taxes?
+question_3_a = $$12,400 - Single; $$24,800 - Married & Jointly
+question_3_b = $$5,400 - Single; $$5,800 - Married & Jointly
+question_3_c = $$24,800 - Single; $$56,800 - Married & Jointly
+question_3_d = $$19,400 - Single; $$38,800 - Married & Jointly
+question_3_answer = a
+
+
+question_4 = What is a W-2?
+question_4_a = Wage and income statement that provides the total amount of income earned with an employer
+question_4_b = Any income that self-employed individuals, independent contractors, and small businesses received
+question_4_c = Statement for people who work at large corporations only
+question_4_d =  Something everyone needs to file
+question_4_answer = a 
+
+question_5 = What is a 1099?
+question_5_a = Wage and income statement that provides the total amount of income earned with an employer
+question_5_b = Any income that self-employed individuals, independent contractors, and small businesses received
+question_5_c = Statement for people who work at large corporations only
+question_5_d =  Something everyone needs to file
+question_5_answer = b 
+
+
+question_6 = Who can claim head of household?
+question_6_a = You can claim head of household if you are unmarried on the last day of the year
+question_6_b =   Whoever is voted within the house
+question_6_c = The oldest male
+question_6_d = The newest family member
+question_6_answer = a
+
+question_7 = If you file an extension, your tax return is due on: 
+question_7_a = October 1
+question_7_b = October 10
+question_7_c = October 15
+question_7_d = October 31
+question_7_answer = c
+
+question_8 = Is there a penalty for filing your tax return late?
+question_8_a = Yes
+question_8_b = No
+question_8_c = Depends on the situation
+question_8_d = None of these answers
+question_8_answer = a
+
+question_9 = What is the tax form used most often to file taxes?
+question_9_a = 1040
+question_9_b = 1120
+question_9_c = 1350
+question_9_d = 1470
+question_9_answer = a
+
+question_10 = You can claim another person as a dependent until they are what age?
+question_10_a = 16 or 19, if they are a full-time student
+question_10_b =  21 or 25, if they are a full-time student
+question_10_c = 19 or 24, if they are a full-time student
+question_10_d = 18 or 21, if they are a full-time student
+question_10_answer = c
+
+question_11 = How long does the IRS have to audit your tax return, generally speaking?
+question_11_a = 2 years
+question_11_b = 3 years
+question_11_c = 4 years
+question_11_d = 5 years
+question_11_answer = b
+
+question_12 = What is a marginal tax bracket?
+question_12_a = The percentage of your income that you pay in taxes
+question_12_b = The lowest income tax bracket
+question_12_c = The percentage of the last dollar you earn that taken in taxes
+question_12_d = The tax rate of a state bordering Canada or Mexico 
+question_12_answer = c
+
+question_13 = What is unitary taxation?
+question_13_a = A tax on the production of manufactured goods
+question_13_b = A one-stop website for filing all federal, state, regional, etc. taxes
+question_13_c =  The way states tax income earned in multiple states
+question_13_d =  An extra tax imposed on millionaires
+question_13_answer = c
+
+question_14 = Which of the following is not a level which you are taxed at?
+question_14_a = Local - City
+question_14_b = Federal
+question_14_c = State
+question_14_d = Continental
+question_14_answer = d
+
+question_15 = Generally, every taxpayer that files a tax return must use an identifying number. Which of the following is NOT a Taxpayer Identification Number for IRS purposes?
+question_15_a = Social Security Number (SSN)
+question_15_b = Adoption Taxpayer Identification Number (ATIN)
+question_15_c = Individual Tax Identification Number (ITIN)
+question_15_d = Preparer Tax Identification Number (PTIN)
+question_15_answer = d

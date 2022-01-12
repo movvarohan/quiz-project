@@ -1,0 +1,112 @@
+[questions]
+question_1 = Ray is married, but he and his wife are filing separately. Their combined income was $$105,000. Ray's income was $$64,000, half of which was self-employment income. Ray is claiming only one exemption for himself, and he wants to itemize his deductions. Which is the simplest form that Ray can use for his tax return?
+question_1_a = Form 1040
+question_1_b = Form 1040A
+question_1_c = Form 1040EZ
+question_1_d =  Form 1040A or 1040EZ
+question_1_answer = a 
+
+question_2 = Janet and Harry are married and usually file jointly. During the tax year, Janet turned 67 and Harry turned 66. Janet's gross income was $$19,400, and Harry's gross income from self-employment was $$420. Based on this information, which of the following statements is true?
+question_2_a = Janet and Harry are not required to file because their combined gross income was less than $$19,800
+question_2_b = Janet and Harry are required to file a tax return because their combined gross income exceeds $$18,700
+question_2_c = Janet and Harry are required to file a tax return because Harry's income from self-employment exceeds $$400
+question_2_d = Only Harry is required to file a tax return
+question_2_answer = c
+
+
+question_3 = Trinity is a single, 22-year-old, full-time college student and is claimed as a dependent on her mother's tax return. Last year Trinity earned $$6,800 in wages from her part-time job as an administrative assistant. Is she required to file a tax return?
+question_3_a = No, Trinity is not required to file a tax return
+question_3_b = Yes, Trinity is required to file a tax return
+question_3_c = Trinity is only required to file a tax return if she is a full-time student
+question_3_d = None of the above
+question_3_answer = b
+
+
+question_4 = Cynthia is divorced and will file as Head of Household. She has two children she will claim as dependents. She works as a secretary and earned $$35,000 in wages for the tax year. She plans to itemize her deductions. Which tax form should Cynthia use?
+question_4_a = Form 1040
+question_4_b = Form 1040A
+question_4_c = Form 1040EZ
+question_4_d =  Form 1040NR
+question_4_answer = a 
+
+question_5 = Helen and Edward were married in 2010. They have no dependents. Edward wants to file jointly, but Helen does not want to file jointly with her husband. Helen is 65 and had a gross income of $$2,000 for the tax year. Edward is 72. His gross income was $$28,000 for the year. Which of the following statements is true?
+question_5_a = Edward is required to file a tax return, and he must file MFS. Helen is not required to file a return
+question_5_b = Edward may still file jointly with Helen and sign on her behalf
+question_5_c = Edward and Helen are both required to file tax returns, and they must both file MFS
+question_5_d =  Edward and Helen may both file SINGLE
+question_5_answer = a 
+
+
+question_6 = Clark and Christy are filing jointly. They have no dependents. Their combined income was $$31,000, which included $$35 in taxable interest and two months of unemployment income for Christy. The remainder of the income was from wages. They want to take the standard deduction. Which is the simplest form that Clark and Christy can use for their tax return?
+question_6_a = Form 1040
+question_6_b = Form 1040A
+question_6_c = Form 1040EZ
+question_6_d = Form 1040NR
+question_6_answer = c
+
+question_7 = Stella, 65, is single and has a dependent son, William, 18, who lives with her. William is still in high school. Stella provides all  of William's support. She had $$12,900 in gross income from wages in 2010. Is she required to file a return?
+question_7_a = Yes
+question_7_b = No
+question_7_c = Depends on her net income
+question_7_d = None of the above
+question_7_answer = b
+
+question_8 = Steven and Rochelle had a child on December 2, 2010. The child only lived for an hour and died before midnight. What is the true statement regarding the child?
+question_8_a = Steven and Rochelle may NOT claim the child as a dependent on their tax return for 2010, because the child did not live with them for the entire tax year.
+question_8_b = Steven and Rochelle may NOT claim the child as a dependent on their tax return for 2010, unless they get a Social Security Number for the child.
+question_8_c = Steven and Rochelle MAY claim the child as a dependent on their tax return for 2010, even if they are unable to get a Social Security Number.
+
+question_8_d = Steven and Rochelle may not claim the child as a dependent on their tax return for 2010, but they may claim the child for tax year 2011.
+question_8_answer = c
+
+question_9 = Horace and Dorothy, who are married and file jointly, are 68 and 62, respectively. Their gross combined income for the year was $$19,980. Although they receive some assistance from friends and relatives, they cannot be claimed as dependents by anyone. Are Horace and Dorothy required to file a tax return?
+question_9_a = Yes, they are required to file a tax return
+question_9_b = No, they are not required to file a tax return
+question_9_c = They are required to file a tax return only if either spouse chooses to file MFS
+question_9_d = None of the above
+question_9_answer = a
+
+question_10 = Alfred lives in Cincinnati where he has a seasonal job for eight months each year and earns $$25,000. He works the other four months in Miami, also at a seasonal job, and earns $$9,000. Where is Alfred's tax home?
+question_10_a = Miami
+question_10_b = Cincinnati
+question_10_c = Alfred is a transient for tax purposes
+question_10_d = Alfred has no tax home
+question_10_answer = b
+
+question_11 = Generally, how long should taxpayers keep the supporting documents for their tax returns?
+question_11_a = Five years from the due date
+question_11_b = Three years from the due date
+question_11_c = Two years from the due date
+question_11_d = One year from the due date
+question_11_answer = b
+
+question_12 = A taxpayer who claims a dependent can use any form EXCEPT ___?
+question_12_a = Form 1040
+question_12_b = Form 1040A
+question_12_c = Form 1040EZ
+question_12_d = Form 1040A or 1040EZ
+question_12_answer = c
+
+question_13 = A person who is not required to file a tax return should still file a return for any of the following reasons except to _____.
+question_13_a = Report self-employment net earnings of $$400 or more
+question_13_b = Claim a refund of withheld taxes
+question_13_c = Claim the Earned Income Credit
+question_13_d =  Claim the additional child tax credit
+question_13_answer = a
+
+question_14 = Felicity is a self-employed bookkeeper and has a home office. Felicity's principal place of business is in her home, although she does not meet clients in her home. Instead, she goes out to her clients' offices and performs their bookkeeping on-site. Which of the following statements is true?
+question_14_a = Felicity can deduct the cost of round-trip transportation between her home office and her clients' place of business
+question_14_b = Felicity can NOT deduct the cost of round-trip transportation between her home office and her clients' or customers' place of business
+question_14_c = Felicity does not have a qualified home office, because she does not meet clients in her home
+question_14_d = None of the above
+question_14_answer = a
+
+question_15 = Brad is working on a temporary work assignment in another city. He's not sure how long the assignment will last. He travels overnight every week. So far, the work assignment has lasted 11 months in 2010, and Brad has incurred $$800 in travel expenses and $$300 in meal expenses. What is his deductible expense for this activity in 2010?
+question_15_a = $$0
+question_15_b = $$800
+question_15_c = $$950
+question_15_d = $$1100
+question_15_answer = a
+
+
+

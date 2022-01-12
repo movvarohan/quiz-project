@@ -1,0 +1,149 @@
+[questions]
+question_1 = What are two rights of everyone living in the United States?
+question_1_a = Freedom to petition the government and freedom to disobey traffic laws  
+question_1_b = Freedom of worship and freedom to make treaties with other countries
+question_1_c = Freedom of speech and freedom to run for president
+question_1_d = Freedom of speech and freedom of worship.
+question_1_answer = d 
+
+question_2 = What is freedom of religion? 
+question_2_a = You can’t choose the time you practice your religion
+question_2_b = You must choose a religion
+question_2_c = You can practice any religion, or not practice a religion
+question_2_d =   No one can practice a religion
+question_2_answer = c 
+
+
+question_3 = Who is in charge of the executive branch?
+question_3_a = The Speaker of the House
+question_3_b = The Prime Minister
+question_3_c = The President
+question_3_d = The Chief Justice
+question_3_answer = c
+
+
+question_4 = Name one branch or part of the government. 
+question_4_a = State government
+question_4_b = Legislative
+question_4_c = Parliament
+question_4_d = United Nations
+question_4_answer = b 
+
+question_5 = What do we call the first ten amendments to the Constitution?
+question_5_a = The Articles of Confederation
+question_5_b = The inalienable rights
+question_5_c = The Declaration of Independence
+question_5_d = The Bill of Rights
+question_5_answer = d
+
+question_6 = Who is the Commander in Chief of the military?
+question_6_a = President of the Senate
+question_6_b =  Speaker of the House
+question_6_c = Governor of the most populous state
+question_6_d = Chief Justice of the Supreme Court
+question_6_answer = b
+
+question_7 = Who vetoes bills?
+question_7_a = The President
+question_7_b = The Vice President
+question_7_c =The Senate
+question_7_d = The House of Representatives
+question_7_answer = a 
+
+question_8 = What does the President’s Cabinet do?
+question_8_a = Advises the president
+question_8_b = Selects the Vice President
+question_8_c = Runs the government when the President travels
+question_8_d = Negotiates treaties with foreign nations
+question_8_answer = a
+
+question_9 = We elect a U.S. Senator for how many years?    
+question_9_a = Ten (10)
+question_9_b = Four (4)
+question_9_c = Two (2)
+question_9_d = Six (6)
+question_9_answer = d
+
+question_10 = What stops one branch of government from becoming too powerful?
+question_10_a = The President
+question_10_b = Checks and balances
+question_10_c = The people
+question_10_d = Freedom of speech
+question_10_answer = b
+
+question_11 = We elect a President for how many years?
+question_11_a =  Eight (8)
+question_11_b = Two (2)
+question_11_c =  Four (4)
+question_11_d = Ten (10)
+question_11_answer = c
+
+question_12 = How many justices are on the Supreme Court?
+question_12_a =  9
+question_12_b = 5
+question_12_c = 12
+question_12_d = 3
+question_12_answer = a
+
+question_13 = What are the two major political parties in the United States today?
+question_13_a = Reform and Green
+question_13_b =  American and Bull-Moose
+question_13_c =  Democratic-Republican and Whig
+question_13_d =  Democrat and Republican
+question_13_answer = d
+
+question_14 = Name one U.S. Territory
+question_14_a = Hawaii
+question_14_b = Cuba
+question_14_c = Puerto Rico
+question_14_d = Okinawa
+question_14_answer = c
+
+question_15 = Who wrote the Declaration of Independence?
+question_15_a = Abraham Lincoln
+question_15_b = James Madison
+question_15_c = George Washington
+question_15_d = Thomas Jefferson
+question_15_answer = d
+
+question_16 = What are two ways that Americans can participate in their democracy? 
+question_16_a = Write to a newspaper and call Senators and Representatives
+question_16_b = Give an elected official your opinion on an issue and join a community group
+question_16_c = Vote and join a civic group
+question_16_d = All of these answers
+question_16_answer = d
+
+question_17 = There are four amendments to the Constitution about who can vote. Describe one of them.
+question_17_a = Citizens seventeen (17) and older can vote
+question_17_b = Citizens by birth only can vote
+question_17_c = Citizens eighteen (18) and older can vote
+question_17_d = Only citizens with a job can vote
+question_17_answer = c
+
+question_18 = Why do some states have more Representatives than other states?
+question_18_a =  Because the state's Representatives have seniority in the House of Representatives
+question_18_b = Because of the state's population
+question_18_c = Because of the geographical size of the state
+question_18_d = Because of the state's location
+question_18_answer = b
+
+question_19 = What is an amendment? 
+question_19_a = An addition (to the Constitution)
+question_19_b = The Preamble to the Constitution
+question_19_c = An introduction
+question_19_d = The beginning of the Declaration of Independence
+question_19_answer = a
+
+question_20 = What is the capital of the United States?
+question_20_a =  St. Louis, MO
+question_20_b = Olympia, WA
+question_20_c = New York, NY
+question_20_d = Washington, DC
+question_20_answer = d
+
+question_21 = The American President must have resided in the USA for at least:
+question_21_a = 10 years
+question_21_b = 12 years
+question_21_c = 14 years
+question_21_d = 15 years
+question_21_answer = c

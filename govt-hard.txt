@@ -1,0 +1,149 @@
+[questions]
+question_1 = Under our Constitution, some powers belong to the states. What is one power of the states?
+question_1_a = Make treaties
+question_1_b = Provide schooling and education
+question_1_c = Create an army
+question_1_d = Coin or print money
+question_1_answer = b
+
+question_2 = The idea of self-government is in the first three words of the Constitution. What are these words? 
+question_2_a = We the People
+question_2_b = Congress shall make
+question_2_c = We the British
+question_2_d = We the Colonists
+question_2_answer = a
+
+
+question_3 = Who makes federal laws?
+question_3_a = Congress
+question_3_b = Supreme Court
+question_3_c = Circuit Court
+question_3_d = International Court of Justice
+question_3_answer = a
+
+
+question_4 = What is the 'rule of law'?
+question_4_a = Everyone but the President must follow the law
+question_4_b = Government does not have to follow the law
+question_4_c = All laws must be the same in every state
+question_4_d =  Everyone must follow the law
+question_4_answer = d
+
+question_5 = What does the Constitution do?
+question_5_a = Defines the government
+question_5_b =  Sets up the government
+question_5_c = Protects basic rights of Americans
+question_5_d = All of these answers
+question_5_answer = d
+
+question_6 = The House of Representatives has how many voting members?
+question_6_a = Four hundred forty-one (441)
+question_6_b =   Four hundred thirty-five (435)
+question_6_c = Two hundred (200)
+question_6_d =  One hundred (100)
+question_6_answer = b
+
+question_7 = What are two Cabinet-level positions? 
+question_7_a = Secretary of Defense and Secretary of State
+question_7_b = Governor of New York and Governor of California
+question_7_c = First Lady and White House Spokesperson
+question_7_d = President of the Senate and Speaker of the House
+question_7_answer = a
+
+question_8 = What is the economic system in the United States?
+question_8_a = Communist economy
+question_8_b = Capitalist economy
+question_8_c = Socialist economy
+question_8_d = None of these answers
+question_8_answer = b
+
+question_9 = What is one right or freedom granted by the First Amendment?
+question_9_a = Trial by jury
+question_9_b = To vote
+question_9_c = To bear arms
+question_9_d = Speech
+question_9_answer = d
+
+question_10 = What did the Emancipation Proclamation do? 
+question_10_a = Gave the United States independence from Great Britain
+question_10_b =  Ended World War I
+question_10_c = Gave women the right to vote
+question_10_d = Freed slaves in most Southern states
+question_10_answer = d
+
+question_11 = Under our Constitution, some powers belong to the federal government. What is one power of the federal government?
+question_11_a = To provide police departments
+question_11_b = To issue driver’s licenses
+question_11_c =  To make treaties
+question_11_d = To provide schooling
+question_11_answer = c
+
+question_12 = Who does a U.S. Senator represent?
+question_12_a =  All people of the state in which (s)he was elected
+question_12_b = All people of the state who belong to the Senator’s political party
+question_12_c = The state legislatures
+question_12_d = Only the people in the state who voted for the Senator
+question_12_answer = a
+
+question_13 = What happened at the Constitutional Convention?
+question_13_a = The Declaration of Independence was written
+question_13_b = The Emancipation Proclamation was written
+question_13_c =  The Constitution was written
+question_13_d =  The Virginia Declaration of Rights was written
+question_13_answer = c
+
+question_14 = How many amendments does the Constitution have?
+question_14_a = 19
+question_14_b = 18
+question_14_c = 25
+question_14_d = 27
+question_14_answer = d
+
+question_15 = What is the supreme law of the land?
+question_15_a = The Articles of Confederation
+question_15_b = The Constitution
+question_15_c = The Emancipation Proclamation
+question_15_d = The Declaration of Independence
+question_15_answer = b
+
+question_16 = What are two rights in the Declaration of Independence?
+question_16_a = Life and death
+question_16_b = Life and pursuit of happiness
+question_16_c = Liberty and justice
+question_16_d = Life and the right to own a home
+question_16_answer = b
+
+question_17 = The Ninth Amendment to the U.S. Constitution
+question_17_a = Repeals the Seventh Amendment
+question_17_b = Imposes a specific limitation on the power of the states to intrude into matters of privacy
+question_17_c = Prohibits the quartering of soldiers in private homes
+question_17_d = Provides that the specification of rights in the first eight amendments isn’t meant to be exhaustive
+question_17_answer = d
+
+question_18 = The Federal Government of the U.S.A. Came into existence on:
+question_18_a =  April 30,1787
+question_18_b = May 30, 1788
+question_18_c = June 30,1788
+question_18_d = April 30,1789
+question_18_answer = a
+
+question_19 = The American Constitution is based on:
+question_19_a = Principle of separation of powers
+question_19_b = Principle of co-ordination of powers
+question_19_c = Principle of parity of powers
+question_19_d = None of these
+question_19_answer = a
+
+question_20 = The new American President assumes office on:
+question_20_a = 1st January
+question_20_b = 20th January
+question_20_c = 28th February
+question_20_d = 1st April
+question_20_answer = b
+
+question_21 = Two Terms tenure of US President was fixed in:
+question_21_a = 1748
+question_21_b = 1848
+question_21_c = 1901
+question_21_d = 1951
+question_21_answer = d

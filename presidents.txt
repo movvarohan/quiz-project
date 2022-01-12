@@ -1,0 +1,114 @@
+[questions]
+question_1 = Who was the 1st president of U.S.A ?
+question_1_a = George Carver												
+question_1_b = John Adams
+question_1_c = James Monroe
+question_1_d = George Washington 
+question_1_answer = d 
+
+question_2 = Which U.S president has the nickname Barry
+question_2_a = Benjiman Harrison
+question_2_b = James Buchman
+question_2_c = Brack Obama
+question_2_d =  Bill Clinton
+question_2_answer = c 
+
+
+question_3 = Who was the president from 1817 - 1825 ?
+question_3_a = Thomas Jefferson 
+question_3_b = James Monroe 
+question_3_c = James Madison
+question_3_d = John Adams
+question_3_answer = b 
+
+
+question_4 = Which president appears on the 500 dollar bill ?
+question_4_a = William H Taft 
+question_4_b = William McKinley
+question_4_c = Richard Nixon 
+question_4_d = Harry S Truman
+question_4_answer = b 
+
+question_5 = Who was president during Rev. Martin Luther King Jr's I have a Dream speach ?
+question_5_a = John F Kennedy
+question_5_b = Warren G Harding
+question_5_c = Woodrow Wilson
+question_5_d = Hary S Truman 
+question_5_answer = a
+
+question_6 = Who was the 9th president of U.S.A ?
+question_6_a = William H Harrison
+question_6_b = Andrew Johnson
+question_6_c = Fredrick Douglas
+question_6_d = John Adams
+question_6_answer = a 
+
+question_7 = Which president succeded Herbert Hoover ?
+question_7_a = Calvin Coolidge
+question_7_b = Lyndon B. Johnson
+question_7_c = Franklin D. Roosevelt
+question_7_d = Martin Van Buren
+question_7_answer = c 
+
+question_8 = Which president preceded William Howard Taft ?
+question_8_a = George H.W. Bush
+question_8_b = Andrew Jackson
+question_8_c = John Adams
+question_8_d = Theodore Roosevelt
+question_8_answer = d
+
+question_9 = Which president held office as a memeber of the Republican party ?		
+question_9_a = Franklin D. Roosevelt 
+question_9_b = Thomas Jefferson
+question_9_c = George W. Bush
+question_9_d = Martin Van Buren 
+question_9_answer = c
+
+question_10 = Who said "War should never be entered upon until every agency of peace has failed." ?
+question_10_a = William McKinley
+question_10_b = Franklin D. Roosevelt
+question_10_c = Lyndon B. Johnson
+question_10_d = Woodrow Wilson
+question_10_answer = d
+
+question_11 = Which of the following presidents faces is not carved into granite along with George Washington's at Mount Rushmore National Memorial?
+question_11_a = Andrew Jackson
+question_11_b = Thomas Jefferson
+question_11_c = Theodore Roosevelt
+question_11_d = Abraham Lincoln
+question_11_answer = a
+
+question_12 = How many of the first 40 presidents of the United States were not yet 50 years old when they were first sworn in?
+question_12_a =  4
+question_12_b = 6
+question_12_c = 13
+question_12_d = 21
+question_12_answer = b
+
+question_13 = "Dewey Defeats Truman" , an erroneous 1948 headline, was printed on the front page of what newspaper?
+question_13_a = Chicago Tribune
+question_13_b =  New York Times
+question_13_c =  San Francisco Chronicle
+question_13_d =  Washington Post
+question_13_answer = a
+
+question_14 = George Washington is called the father of our country, but how many kids did Mr. Washington really have?
+question_14_a = 0
+question_14_b = 1
+question_14_c = 3
+question_14_d = 7 
+question_14_answer = a
+
+question_15 = What breed was the dog mentioned in Vice President Richard Nixon's "Checker" speech?
+question_15_a = Dalmatian
+question_15_b = cocker spaniel
+question_15_c = beagle
+question_15_d = Scottie
+question_15_answer = b
+
+question_16 = Who was the only vice president of the United States born in California?
+question_16_a = Gerald Ford
+question_16_b = Richard Nixon
+question_16_c = Harry Truman
+question_16_d = Henry Wallace
+question_16_answer = b
