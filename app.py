@@ -169,8 +169,8 @@ def nextQn():
         # Pass the item object to the question.html file to render it on the browser.
         return render_template('question.html', item=item)
     elif category == "presidents" or category == "tax" or  category == "govt" :
-        # This method is used to ask presidents category questions.
-        # Read the presidents.txt file for all the questions.
+        # This method is used to ask presidents or tax or gov category questions.
+        # Read the presidents or tax or gov .txt file for all the questions.
         questions = configparser.ConfigParser();
         questions._interpolation = configparser.ExtendedInterpolation();
         maxqns = 10
